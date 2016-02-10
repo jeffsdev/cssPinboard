@@ -4,6 +4,13 @@ body {
   background-image: url('https://dl.dropboxusercontent.com/s/o6gu442sx3g9es2/cork-board.jpg');
 }
 
+.container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 100px;
+}
+
 .polaroid {
   position: relative;
   background-image: url('https://dl.dropboxusercontent.com/s/4qo5wz8brq13ex2/polaroid.png');
@@ -11,12 +18,20 @@ body {
   background-repeat: no-repeat;
   width: 600px;
   height: 600px;
-  margin: auto;
 }
+
+
 
 .polaroid img {
   position: absolute;
   width: 382px;
   top: 62px;
   left: 73px;
+}
+
+.pin {
+  position: absolute;
+  max-width: 15%;
+  top: 0px;
+  left: 30%;
 }
