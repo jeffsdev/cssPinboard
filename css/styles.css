@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url('https://dl.dropboxusercontent.com/s/o6gu442sx3g9es2/cork-board.jpg');
+}
+
+.polaroid {
+  position: relative;
+  background-image: url('https://dl.dropboxusercontent.com/s/4qo5wz8brq13ex2/polaroid.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+}
+
+.polaroid img {
+  position: absolute;
+  width: 382px;
+  top: 62px;
+  left: 73px;
+}
